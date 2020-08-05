@@ -1,0 +1,31 @@
+.brand-color {color: #04a8b4;}
+iframe.twitter-follow-button {vertical-align: text-bottom;margin: auto auto -1px 8px;}
+div#content-wrapper {height: 500px;padding-left: 20px;}
+.scrollContainer {overflow-y: scroll;overflow-x: hidden;min-width: 650px;width: 100%;}
+.scrollContent {position: relative;}
+section {height: 100%;}
+section#start {}
+h1 {font-size: 80px;}
+h2 {font-size: 30px;}
+h3 {font-weight: bold;}
+#intro {display: block;width: 650px;height: 500px;top: 100px;margin: auto;position: absolute;}
+#intro img {user-select: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;-o-user-select: none;}
+#intro h2 {position: absolute;text-align: center;width: 100%;top: 105px;margin: 0;}
+#intro h2 span {position: relative;}
+#intro .sky {position: absolute;bottom: 0px;left: -15px;max-width: 380px;z-index: -1;}
+#intro .hand {position: absolute;bottom: 220px;left: -15px;max-width: 300px;}
+#intro .hand-btm {position: absolute;bottom: 40px;left: -15px;max-width: 250px;}
+#intro .letterstack {position: absolute;bottom: 208px;left: 50%;}
+#intro .chu {position: absolute;bottom: 140px;left: 50%;}
+#intro .studio {position: absolute;bottom: 0px;left: 50%;}
+#blueprint img {width: 50%;}
+.headline {height: 170px;overflow: hidden;margin-top: 100px;}
+.headline h3 {text-align: center;text-transform: uppercase;font-size: 80px;margin: 100px auto 0 auto;position: relative;}
+#tweens {height: auto;overflow: hidden;}
+#tweens h3 {text-align: center;font-size: 80px;margin: 0 auto 200px auto;position: relative;}
+#parallax {padding-top: 200px;margin-top: 70px;margin-bottom: 50px;position: relative;overflow: hidden;}
+#parallax h3 {font-size: 40px;text-align: center;text-transform: uppercase;margin: -180px 0 0 0;position: absolute;top: 50%;width: 100%;line-height: 80px;}
+#parallax #parallaxbg {height: 700px;top: 50%;width: 100%;margin-top: -250px;background-image: url("../img/blueprint_solid.jpg");}
+#parallaxbg .top {height: 10px;width: 100%;position: absolute;top: 0;background-image: url("../img/demo_parallax_shadow_top.png");}
+#parallaxbg .bottom {height: 10px;width: 100%;position: absolute;bottom: 0;background-image: url("../img/demo_parallax_shadow_bottom.png");}
+html.touch body {font-size: 25px;}

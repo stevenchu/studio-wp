@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html><body><br><b>Warning</b>:  Illegal string offset 'class' in <b>/home/stevenchu/www/www/wp-content/themes/x3studio/functions.php</b> on line <b>146</b><br><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>Starting Your Website? Here's What You Need to Know - STEVEN CHU STUDIO</title><script type="text/javascript" src="https://cdn.ampproject.org/v0.js" async></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>	<script type="application/ld+json">{"@context":"http:\/\/schema.org","publisher":{"@type":"Organization","name":"STEVEN CHU STUDIO"},"@type":"BlogPosting","mainEntityOfPage":"http:\/\/stevenchustudio.com\/starting-your-website\/","headline":"Starting Your Website? Here’s What You Need to Know","datePublished":"2014-05-01T18:23:02+00:00","dateModified":"2014-05-01T19:46:10+00:00","author":{"@type":"Person","name":"Steven Chu"}}</script><style amp-custom>
+		/* Generic WP styling */
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.amp-wp-enforced-sizes {
+	/** Our sizes fallback is 100vw, and we have a padding on the container; the max-width here prevents the element from overflowing. **/
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.amp-wp-unknown-size img {
+	/** Worst case scenario when we can't figure out dimensions for an image. **/
+	/** Force the image into a box of fixed dimensions and use object-fit to scale. **/
+	object-fit: contain;
+}
+
+/* Template Styles */
+
+.amp-wp-content,
+.amp-wp-title-bar div {
+		margin: 0 auto;
+	max-width: 600px;
+	}
+
+html {
+	background: #0a89c0;
+}
+
+body {
+	background: #fff;
+	color: #353535;
+	font-family: 'Merriweather', 'Times New Roman', Times, Serif;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+
+p,
+ol,
+ul,
+figure {
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+a,
+a:visited {
+	color: #0a89c0;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #353535;
+}
+
+/* Quotes */
+
+blockquote {
+	color: #353535;
+	background: rgba(127,127,127,.125);
+	border-left: 2px solid #0a89c0;
+	margin: 8px 0 24px 0;
+	padding: 16px;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+/* UI Fonts */
+
+.amp-wp-meta,
+.amp-wp-header div,
+.amp-wp-title,
+.wp-caption-text,
+.amp-wp-tax-category,
+.amp-wp-tax-tag,
+.amp-wp-comments-link,
+.amp-wp-footer p,
+.back-to-top {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+
+/* Header */
+
+.amp-wp-header {
+	background-color: #0a89c0;
+}
+
+.amp-wp-header div {
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0 auto;
+	max-width: calc(840px - 32px);
+	padding: .875em 16px;
+	position: relative;
+}
+
+.amp-wp-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Site Icon */
+
+.amp-wp-header .amp-wp-site-icon {
+	/** site icon is 32px **/
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 18px;
+	top: 10px;
+}
+
+/* Article */
+
+.amp-wp-article {
+	color: #353535;
+	font-weight: 400;
+	margin: 1.5em auto;
+	max-width: 840px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+/* Article Header */
+
+.amp-wp-article-header {
+	align-items: center;
+	align-content: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 1.5em 16px 0;
+}
+
+.amp-wp-title {
+	color: #353535;
+	display: block;
+	flex: 1 0 100%;
+	font-weight: 900;
+	margin: 0 0 .625em;
+	width: 100%;
+}
+
+/* Article Meta */
+
+.amp-wp-meta {
+	color: #696969;
+	display: inline-block;
+	flex: 2 1 50%;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0 0 1.5em;
+	padding: 0;
+}
+
+.amp-wp-article-header .amp-wp-meta:last-of-type {
+	text-align: right;
+}
+
+.amp-wp-article-header .amp-wp-meta:first-of-type {
+	text-align: left;
+}
+
+.amp-wp-byline amp-img,
+.amp-wp-byline .amp-wp-author {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.amp-wp-byline amp-img {
+	border: 1px solid #0a89c0;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 6px;
+}
+
+.amp-wp-posted-on {
+	text-align: right;
+}
+
+/* Featured image */
+
+.amp-wp-article-featured-image {
+	margin: 0 0 1em;
+}
+.amp-wp-article-featured-image amp-img {
+	margin: 0 auto;
+}
+.amp-wp-article-featured-image.wp-caption .wp-caption-text {
+	margin: 0 18px;
+}
+
+/* Article Content */
+
+.amp-wp-article-content {
+	margin: 0 16px;
+}
+
+.amp-wp-article-content ul,
+.amp-wp-article-content ol {
+	margin-left: 1em;
+}
+
+.amp-wp-article-content .wp-caption {
+	max-width: 100%;
+}
+
+.amp-wp-article-content amp-img {
+	margin: 0 auto;
+}
+
+.amp-wp-article-content amp-img.alignright {
+	margin: 0 0 1em 16px;
+}
+
+.amp-wp-article-content amp-img.alignleft {
+	margin: 0 16px 1em 0;
+}
+
+/* Captions */
+
+.wp-caption {
+	padding: 0;
+}
+
+.wp-caption.alignleft {
+	margin-right: 16px;
+}
+
+.wp-caption.alignright {
+	margin-left: 16px;
+}
+
+.wp-caption .wp-caption-text {
+	border-bottom: 1px solid #c2c2c2;
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: .66em 10px .75em;
+}
+
+/* AMP Media */
+
+amp-carousel {
+	background: #c2c2c2;
+	margin: 0 -16px 1.5em;
+}
+amp-iframe,
+amp-youtube,
+amp-instagram,
+amp-vine {
+	background: #c2c2c2;
+	margin: 0 -16px 1.5em;
+}
+
+.amp-wp-article-content amp-carousel amp-img {
+	border: none;
+}
+
+amp-carousel > amp-img > img {
+	object-fit: contain;
+}
+
+.amp-wp-iframe-placeholder {
+	background: #c2c2c2 url( http://stevenchustudio.com/wp-content/plugins/amp/assets/images/placeholder-icon.png ) no-repeat center 40%;
+	background-size: 48px 48px;
+	min-height: 48px;
+}
+
+/* Article Footer Meta */
+
+.amp-wp-article-footer .amp-wp-meta {
+	display: block;
+}
+
+.amp-wp-tax-category,
+.amp-wp-tax-tag {
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 1.5em 16px;
+}
+
+.amp-wp-comments-link {
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 2.25em 0 1.5em;
+}
+
+.amp-wp-comments-link a {
+	border-style: solid;
+	border-color: #c2c2c2;
+	border-width: 1px 1px 2px;
+	border-radius: 4px;
+	background-color: transparent;
+	color: #0a89c0;
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 18px;
+	margin: 0 auto;
+	max-width: 200px;
+	padding: 11px 16px;
+	text-decoration: none;
+	width: 50%;
+	-webkit-transition: background-color 0.2s ease;
+			transition: background-color 0.2s ease;
+}
+
+/* AMP Footer */
+
+.amp-wp-footer {
+	border-top: 1px solid #c2c2c2;
+	margin: calc(1.5em - 1px) 0 0;
+}
+
+.amp-wp-footer div {
+	margin: 0 auto;
+	max-width: calc(840px - 32px);
+	padding: 1.25em 16px 1.25em;
+	position: relative;
+}
+
+.amp-wp-footer h2 {
+	font-size: 1em;
+	line-height: 1.375em;
+	margin: 0 0 .5em;
+}
+
+.amp-wp-footer p {
+	color: #696969;
+	font-size: .8em;
+	line-height: 1.5em;
+	margin: 0 85px 0 0;
+}
+
+.amp-wp-footer a {
+	text-decoration: none;
+}
+
+.back-to-top {
+	bottom: 1.275em;
+	font-size: .8em;
+	font-weight: 600;
+	line-height: 2em;
+	position: absolute;
+	right: 16px;
+}
+		/* Inline stylesheets */
+:root:not(#_):not(#_):not(#_):not(#_):not(#_) .amp-wp-09e3249{border:5px solid #1d8db1;padding:20px 15px 20px;text-align:center}:root:not(#_):not(#_):not(#_):not(#_):not(#_) .amp-wp-e0e5758{margin-bottom:5px;font-size:5em;line-height:1em;font-weight:normal;font-family:"Source Sans Pro";color:#1d8db1}:root:not(#_):not(#_):not(#_):not(#_):not(#_) .amp-wp-f782f1e{color:#1d8db1}	</style><header id="top" class="amp-wp-header"><div>
+		<a href="http://stevenchustudio.com/">
+									<span class="amp-site-title">
+				STEVEN CHU STUDIO			</span>
+		</a>
+	</div>
+</header><article class="amp-wp-article"><header class="amp-wp-article-header"><h1 class="amp-wp-title">Starting Your Website? Here’s What You Need to Know</h1>
+			<div class="amp-wp-meta amp-wp-byline">
+					<amp-img src="https://secure.gravatar.com/avatar/4520b051c7323f3e1998d796749281f1?s=24&d=mm&r=g" alt="Steven Chu" width="24" height="24" layout="fixed"></amp-img><span class="amp-wp-author author vcard">Steven Chu</span>
+	</div>
+<div class="amp-wp-meta amp-wp-posted-on">
+	<time datetime="2014-05-01T14:23:02+00:00">
+		6 years ago	</time></div>
+	</header><figure class="amp-wp-article-featured-image wp-caption"></figure><div class="amp-wp-article-content">
+		<div class="amp-wp-09e3249">
+<h1 class="amp-wp-e0e5758">Sophisticated, Clear Websites</h1>
+<p><span class="amp-wp-f782f1e">custom tailored and made for people who care about design.</span></p></div>
+<p> </p>
+<p><em>About Steven Chu Studio:</em> Based here in New York City, working between Manhattan & Brooklyn – we can handle your entire brand and website development process from start to finish.</p>
+<p> </p>
+<h3>Stages</h3>
+<h2>One: Planning</h2>
+<ol><li>Find and bookmark 3 contemporary websites that can be inspirations for your own
+<ol><li>Who’s the best in your industry? See what they are doing.</li>
+<li>Go beyond your industry. Who are your style pioneers? See what they are doing.</li>
+<li>Check out these two sites I love for of-the-moment references: <a href="http://onepagelove.com" target="_blank">onepagelove.com</a> and <a href="http://fltdsgn.com" target="_blank">fltdsgn.com</a></li>
+</ol></li>
+<li>Make a list of all the critical features you want built into your site. At this stage you don’t need to know what page they will be on, just make a running list.
+<ol><li>Find some feature inspirations from the reference sites listed above, or check out my wide array of Pinterest boards <a href="http://www.pinterest.com/stevenchu/" target="_blank">pinterest.com/stevenchu</a></li>
+<li>E.g., Responsive / mobile friendly design, CMS (content management system) or not: “Do you need to be able to edit and update content yourself?”, gallery slideshow, intro slideshow, social media links, social media integration, contact form, subscribe to newsletter, infographic charts, more complex features. Note: only include what’s critical; a bloated site with too many options will just confuse your visitors.</li>
+</ol></li>
+<li>Gather your content and put it in a Dropbox folder to share, alternatively you can attach all your assets to ONE email and send it over if the files are small. This includes:
+<ol><li>Branding assets. A hi-res copy of your logo, attach brand guidelines if you have one, font files (I don’t own the fonts you want to use).</li>
+<li>Any images or graphics you want to use. (e.g., product gallery slideshows, header images, promo images, and illustrations).</li>
+<li>Copy. The copy on your website refers to any and all text. For any content section (no matter big or small) on your site, try following this format by writing out:
+<ol><li>
+<h1>Primary Headline (2-5 words. i.e., “the what”)</h1>
+</li>
+<li>
+<h3>Subheadline (5-10 words, i.e., “a cute reason why this is worth attention!”)</h3>
+</li>
+<li>Body Copy (variable length; your main area to describe your argument in detail)</li>
+</ol></li>
+</ol></li>
+<li> Choose a rough timeline in which you want the site done. Typical efficient timeline is two weeks provided that you are fully prepared with all assets delivered. Not having all assets above prepared in advance (and delivering them piecemeal) usually results in a drawn out development time between 2-6 months and lots of back and forth resulting in going over budget.</li>
+</ol><p> </p>
+<h2>Two: Brainstorm & Setup (Meeting One)</h2>
+<ol><li>Get on the same wavelength. Bounce your initial ideas off us and let us steer the ship to help you pin down some more concrete directions to sail forward in. We’ll talk about each of the planning sections above, channel some ideas, and help you visualize a more tangible vision of what’s possible.</li>
+<li>Site registration logistics.
+<ol><li>Bring your credit card and we’ll help you register your domain name + web hosting, or just the web hosting if you already bought your domain. We get extremely low rates and pass this to our customers (so if you haven’t purchased the domain name yet, don’t do it through GoDaddy etc. Wait for us!).</li>
+<li>Please be prepared and bring any login information (site / username / password) to make changes and install your setup. E.g., control panel login, domain name login, FTP / MySQL login, mailchimp / social media accounts or anything else relevant.</li>
+</ol></li>
+<li>Homework. Yes, you will have homework! It’s fairly painless. There will be colors and fonts to decide on, choosing with features you want to go with, and always – new copy and visual assets needed as a result of our combined ideas and tailored direction.</li>
+<li>Budget, approval, and deposit. You aren’t the only one that has homework! We take all your site requirements and break it hour by hour into a compiled project estimate for you to approve. We run it by you and pare down or expand this budget as needed. After signing budget and initial work agreement (which outlines scope of work, development timeline and your responsibilities as a client to moving work forward), a 50% deposit is required to commence work. Payment plans negotiable on a case by case basis.</li>
+</ol><p> </p>
+<h2>Three: Initial Build and WIP (Work In Progress) Communication</h2>
+<ol><li>On our side, we work very similar to home construction:
+<ol><li>Planning. Finalize our blueprint.</li>
+<li>Structural construction. We first lay down the foundation and architecture for your site. Similar to a home, we allocate space / placeholders for where your bathroom goes, where your bathroom sink goes, noting the size/dimensions and any feature it may need to be connected to (i.e., if we get this brand of sink, we need these kinds of pipes to connect to the shower and main…)</li>
+<li>Visual construction. Finally, time to decorate! Kid us not, the finishing touches don’t happen at the finish line–visual planning happens in tandem at all stages of planning and structural construction. E.g., if we want a clean, minimal look and want to only reveal some info like a signup form when someone clicks on it, we need to plan to build in this functionality in advance. Color choices, fonts, and spacing also impact where features will be arranged on your site to make the most sense.</li>
+<li>Revisions & Finalization (Meeting Two).</li>
+<li>Testing. To test drive this vehicle, you’ll pretend to be your end customer and see if you can navigate your way through the site logically, double checking that everything works as planned.</li>
+</ol></li>
+</ol><p> </p>
+<h2>Four: Launch!</h2>
+<ol><li>Full payment must be rendered in order to launch site live to public.</li>
+<li>Minor tweaks that fall within original scope of work can be made within two weeks of launch. Edits and services beyond this time frame are billed to you hourly.</li>
+</ol></div>
+
+	<footer class="amp-wp-article-footer"><div class="amp-wp-meta amp-wp-tax-category">
+		Categories: <a href="http://stevenchustudio.com/resource/branding-guide/" rel="category tag">Branding</a>	</div>
+
+		<div class="amp-wp-meta amp-wp-comments-link">
+		<a href="http://stevenchustudio.com/starting-your-website/#respond">
+			Leave a Comment		</a>
+	</div>
+	</footer></article><footer class="amp-wp-footer"><div>
+		<h2>STEVEN CHU STUDIO</h2>
+		<p>
+			<a href="https://wordpress.org/">
+				Powered by WordPress			</a>
+		</p>
+		<a href="#top" class="back-to-top">Back to top</a>
+	</div>
+</footer></body></html>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html><body><br><b>Warning</b>:  Illegal string offset 'class' in <b>/home/stevenchu/www/www/wp-content/themes/x3studio/functions.php</b> on line <b>146</b><br><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>Image Delivery Guidelines - STEVEN CHU STUDIO</title><script type="text/javascript" src="https://cdn.ampproject.org/v0.js" async></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>	<script type="application/ld+json">{"@context":"http:\/\/schema.org","publisher":{"@type":"Organization","name":"STEVEN CHU STUDIO"},"@type":"BlogPosting","mainEntityOfPage":"http:\/\/stevenchustudio.com\/image-guidelines\/","headline":"Image Delivery Guidelines","datePublished":"2016-05-03T05:05:23+00:00","dateModified":"2016-05-12T16:11:51+00:00","author":{"@type":"Person","name":"Steven Chu"}}</script><style amp-custom>
+		/* Generic WP styling */
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.amp-wp-enforced-sizes {
+	/** Our sizes fallback is 100vw, and we have a padding on the container; the max-width here prevents the element from overflowing. **/
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.amp-wp-unknown-size img {
+	/** Worst case scenario when we can't figure out dimensions for an image. **/
+	/** Force the image into a box of fixed dimensions and use object-fit to scale. **/
+	object-fit: contain;
+}
+
+/* Template Styles */
+
+.amp-wp-content,
+.amp-wp-title-bar div {
+		margin: 0 auto;
+	max-width: 600px;
+	}
+
+html {
+	background: #0a89c0;
+}
+
+body {
+	background: #fff;
+	color: #353535;
+	font-family: 'Merriweather', 'Times New Roman', Times, Serif;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+
+p,
+ol,
+ul,
+figure {
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+a,
+a:visited {
+	color: #0a89c0;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #353535;
+}
+
+/* Quotes */
+
+blockquote {
+	color: #353535;
+	background: rgba(127,127,127,.125);
+	border-left: 2px solid #0a89c0;
+	margin: 8px 0 24px 0;
+	padding: 16px;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+/* UI Fonts */
+
+.amp-wp-meta,
+.amp-wp-header div,
+.amp-wp-title,
+.wp-caption-text,
+.amp-wp-tax-category,
+.amp-wp-tax-tag,
+.amp-wp-comments-link,
+.amp-wp-footer p,
+.back-to-top {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+
+/* Header */
+
+.amp-wp-header {
+	background-color: #0a89c0;
+}
+
+.amp-wp-header div {
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0 auto;
+	max-width: calc(840px - 32px);
+	padding: .875em 16px;
+	position: relative;
+}
+
+.amp-wp-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Site Icon */
+
+.amp-wp-header .amp-wp-site-icon {
+	/** site icon is 32px **/
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 18px;
+	top: 10px;
+}
+
+/* Article */
+
+.amp-wp-article {
+	color: #353535;
+	font-weight: 400;
+	margin: 1.5em auto;
+	max-width: 840px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+/* Article Header */
+
+.amp-wp-article-header {
+	align-items: center;
+	align-content: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 1.5em 16px 0;
+}
+
+.amp-wp-title {
+	color: #353535;
+	display: block;
+	flex: 1 0 100%;
+	font-weight: 900;
+	margin: 0 0 .625em;
+	width: 100%;
+}
+
+/* Article Meta */
+
+.amp-wp-meta {
+	color: #696969;
+	display: inline-block;
+	flex: 2 1 50%;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0 0 1.5em;
+	padding: 0;
+}
+
+.amp-wp-article-header .amp-wp-meta:last-of-type {
+	text-align: right;
+}
+
+.amp-wp-article-header .amp-wp-meta:first-of-type {
+	text-align: left;
+}
+
+.amp-wp-byline amp-img,
+.amp-wp-byline .amp-wp-author {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.amp-wp-byline amp-img {
+	border: 1px solid #0a89c0;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 6px;
+}
+
+.amp-wp-posted-on {
+	text-align: right;
+}
+
+/* Featured image */
+
+.amp-wp-article-featured-image {
+	margin: 0 0 1em;
+}
+.amp-wp-article-featured-image amp-img {
+	margin: 0 auto;
+}
+.amp-wp-article-featured-image.wp-caption .wp-caption-text {
+	margin: 0 18px;
+}
+
+/* Article Content */
+
+.amp-wp-article-content {
+	margin: 0 16px;
+}
+
+.amp-wp-article-content ul,
+.amp-wp-article-content ol {
+	margin-left: 1em;
+}
+
+.amp-wp-article-content .wp-caption {
+	max-width: 100%;
+}
+
+.amp-wp-article-content amp-img {
+	margin: 0 auto;
+}
+
+.amp-wp-article-content amp-img.alignright {
+	margin: 0 0 1em 16px;
+}
+
+.amp-wp-article-content amp-img.alignleft {
+	margin: 0 16px 1em 0;
+}
+
+/* Captions */
+
+.wp-caption {
+	padding: 0;
+}
+
+.wp-caption.alignleft {
+	margin-right: 16px;
+}
+
+.wp-caption.alignright {
+	margin-left: 16px;
+}
+
+.wp-caption .wp-caption-text {
+	border-bottom: 1px solid #c2c2c2;
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: .66em 10px .75em;
+}
+
+/* AMP Media */
+
+amp-carousel {
+	background: #c2c2c2;
+	margin: 0 -16px 1.5em;
+}
+amp-iframe,
+amp-youtube,
+amp-instagram,
+amp-vine {
+	background: #c2c2c2;
+	margin: 0 -16px 1.5em;
+}
+
+.amp-wp-article-content amp-carousel amp-img {
+	border: none;
+}
+
+amp-carousel > amp-img > img {
+	object-fit: contain;
+}
+
+.amp-wp-iframe-placeholder {
+	background: #c2c2c2 url( http://stevenchustudio.com/wp-content/plugins/amp/assets/images/placeholder-icon.png ) no-repeat center 40%;
+	background-size: 48px 48px;
+	min-height: 48px;
+}
+
+/* Article Footer Meta */
+
+.amp-wp-article-footer .amp-wp-meta {
+	display: block;
+}
+
+.amp-wp-tax-category,
+.amp-wp-tax-tag {
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 1.5em 16px;
+}
+
+.amp-wp-comments-link {
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 2.25em 0 1.5em;
+}
+
+.amp-wp-comments-link a {
+	border-style: solid;
+	border-color: #c2c2c2;
+	border-width: 1px 1px 2px;
+	border-radius: 4px;
+	background-color: transparent;
+	color: #0a89c0;
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 18px;
+	margin: 0 auto;
+	max-width: 200px;
+	padding: 11px 16px;
+	text-decoration: none;
+	width: 50%;
+	-webkit-transition: background-color 0.2s ease;
+			transition: background-color 0.2s ease;
+}
+
+/* AMP Footer */
+
+.amp-wp-footer {
+	border-top: 1px solid #c2c2c2;
+	margin: calc(1.5em - 1px) 0 0;
+}
+
+.amp-wp-footer div {
+	margin: 0 auto;
+	max-width: calc(840px - 32px);
+	padding: 1.25em 16px 1.25em;
+	position: relative;
+}
+
+.amp-wp-footer h2 {
+	font-size: 1em;
+	line-height: 1.375em;
+	margin: 0 0 .5em;
+}
+
+.amp-wp-footer p {
+	color: #696969;
+	font-size: .8em;
+	line-height: 1.5em;
+	margin: 0 85px 0 0;
+}
+
+.amp-wp-footer a {
+	text-decoration: none;
+}
+
+.back-to-top {
+	bottom: 1.275em;
+	font-size: .8em;
+	font-weight: 600;
+	line-height: 2em;
+	position: absolute;
+	right: 16px;
+}
+			</style><header id="top" class="amp-wp-header"><div>
+		<a href="http://stevenchustudio.com/">
+									<span class="amp-site-title">
+				STEVEN CHU STUDIO			</span>
+		</a>
+	</div>
+</header><article class="amp-wp-article"><header class="amp-wp-article-header"><h1 class="amp-wp-title">Image Delivery Guidelines</h1>
+			<div class="amp-wp-meta amp-wp-byline">
+					<amp-img src="https://secure.gravatar.com/avatar/4520b051c7323f3e1998d796749281f1?s=24&d=mm&r=g" alt="Steven Chu" width="24" height="24" layout="fixed"></amp-img><span class="amp-wp-author author vcard">Steven Chu</span>
+	</div>
+<div class="amp-wp-meta amp-wp-posted-on">
+	<time datetime="2016-05-03T01:05:23+00:00">
+		4 years ago	</time></div>
+	</header><figure class="amp-wp-article-featured-image wp-caption"></figure><div class="amp-wp-article-content">
+		<p class="p1">Your responsibilities as the client:</p>
+<ol><li class="p1">Ensure you make all attempts to attain the highest quality image assets<br><em>(Unless your stylistic look specifically calls for low quality images, low quality images typically come across as less professional, less refined, and may otherwise ruin a solidly produced website.)</em></li>
+<li class="p1">Confirm you have read the guidelines below on how to properly prepare your images for web.</li>
+<li class="p1">Ensure image files are properly formatted and ready for web upload</li>
+<li class="p1">Upload your web-ready images to the proper section of your website, so that they can be readily inserted into content by your web designer / developer.<br><em>(If you have negotiated for your web designer / developer to handle image content uploading for you, .zip your folder of images and email transfer them via <a href="http://wetransfer.com" target="_blank">wetransfer.com</a> for free.)</em></li>
+<li class="p1">See also: How to notate in your copy documents where images should be placed.</li>
+</ol><p> </p>
+<p class="p1">Important Notes:</p>
+<ul><li class="p1">Website production will not begin until image assets have been properly delivered. Delay in delivery of any content assets (images or copy) will delay beginning the website production timeline. Delays to delivery greater than 1 week may require renegotiation of website production fees.</li>
+<li class="p1">You are responsible for the images submitted and understand that what you submit is what will be used. If the images provided to developer do not meet the requested quality standards, you accept full responsibility over end result.</li>
+</ul><p class="p1">
+</p><p class="p1">
+</p><p> </p>
+<hr><h3></h3>
+<h3></h3>
+<h3>Logos</h3>
+<p class="p1">Please provide your logo as:</p>
+<ul><li><strong>Format:</strong> .PNG file format only<br><em>(.jpg or other file formats are not accepted)</em></li>
+<li>on a transparent background</li>
+<li><strong>Dimensions:</strong> minimum of 1000px wide, to be resized down as needed for use on web</li>
+<li><strong>Target KB size:</strong> ~20kb, or < 100kb</li>
+<li><strong>File name:</strong> companyname_logo.png</li>
+<li><strong>Usage rights:</strong> Verify you have the rights / permissions to use</li>
+</ul><p>If you do not currently have your logo as a transparent PNG file, you may provide your logo in .ai / .eps / .tif format and I will convert it to PNG.</p>
+<h3>Photos</h3>
+<ul><li><strong>Format:</strong> .JPG file format only<br>
+(<em>.PDF and other file formats cannot be displayed on the web and are not accepted.)<br>
+(*Digitally illustrated graphics may be saved as .PNG file format for improved output quality and potentially smaller file sizes.)</em></li>
+<li><strong>Dimensions:</strong>
+<ul><li>Supporting images (small): Minimum 1500px wide</li>
+<li>Feature images aka. “hero images” (large images that will be displayed at full screen width): Minimum 2500px wide, up to 4000px wide if possible</li>
+</ul></li>
+<li><strong>Image Quality:</strong>
+<ul><li><strong>For photographic images from a DSLR camera (whether your own photographer, or a purchased stock photo image):</strong>
+<ul><li>1. In Photoshop, scale image down to either the recommended small or large dimensions.</li>
+<li>2. To optimize for web, use the ‘Save for Web’ setting in Photoshop. Then, manually tweak the ‘Quality’ setting anywhere between 20 to 70. For small images, saving at quality between 50-70 gives a great balance between quality and load speed. For large images, save at a lower quality between 20-40 to compensate for the large file size slowing down load speed.</li>
+<li>Note: the more image heavy your page is, the more strictly you should compress your image file sizes.</li>
+</ul></li>
+<li><strong>For scanned images or images pulled off other people’s websites:</strong><br><em>(Note: These second hand images are almost always suboptimal quality.)</em>
+<ul><li>1. First open the image, zoom to 100%, and inspect. Is it pixelated, blurry, or bad quality to begin with? If so, do not proceed to the next step. Find an alternate method to garner a high quality, crisp and clear image.</li>
+<li>2. Check cropping: Have you left extra white space around the image from the scanner bed that needs to be cropped off?</li>
+<li>3. Check rotational alignment:  Is the image crooked and not level?</li>
+<li>4. Follow steps 1 and 2 for DSLR photos listed above.</li>
+</ul></li>
+</ul></li>
+<li><strong>Target KB size:</strong>
+<ul><li>Small images: 70kb to 350kb</li>
+<li>Large images: 350kb to 550kb</li>
+</ul></li>
+<li><strong>File name:</strong> Use a consistent, semantic naming format that can apply for all your images.
+<ul><li>To name by the location image will reside: bio_photo_johndoe.jpg or press_2016-07_vogue.jpg.</li>
+<li>If image may be used in multiple locations on site, name purely by content description: 2016-07_voguephotoshoot.jpg or 2015-01_alaskatrip_john_suzie_mom.jpg</li>
+</ul></li>
+<li><strong>Usage rights & attribution:</strong> Verify you have usage rights and permission to use photos or graphics on your website. Check with the photographer or content creator if attribution is needed and where. It is also best practice to credit your photographer somewhere in your filename: mumbai_skyline_johndoe.jpg</li>
+</ul><p>For additional detail on how to get your images ready for web, read this Squarespace tutorial:<br>
+https://support.squarespace.com/hc/en-us/articles/206542517-Formatting-your-images-for-display-on-the-web</p>
+	</div>
+
+	<footer class="amp-wp-article-footer"><div class="amp-wp-meta amp-wp-tax-category">
+		Categories: <a href="http://stevenchustudio.com/resource/pre-boarding/" rel="category tag">Pre-Boarding</a>	</div>
+
+	<div class="amp-wp-meta amp-wp-tax-tag">
+		Tags: <a href="http://stevenchustudio.com/tag/website-assets/" rel="tag">website assets</a>	</div>
+		<div class="amp-wp-meta amp-wp-comments-link">
+		<a href="http://stevenchustudio.com/image-guidelines/#respond">
+			Leave a Comment		</a>
+	</div>
+	</footer></article><footer class="amp-wp-footer"><div>
+		<h2>STEVEN CHU STUDIO</h2>
+		<p>
+			<a href="https://wordpress.org/">
+				Powered by WordPress			</a>
+		</p>
+		<a href="#top" class="back-to-top">Back to top</a>
+	</div>
+</footer></body></html>

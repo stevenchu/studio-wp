@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html><body><br><b>Warning</b>:  Illegal string offset 'class' in <b>/home/stevenchu/www/www/wp-content/themes/x3studio/functions.php</b> on line <b>146</b><br><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>Fashion Illustration Portfolio Custom Tumblr Theme - Bruno Grizzo</title><script type="text/javascript" src="https://cdn.ampproject.org/v0.js" async></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic"><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>	<script type="application/ld+json">{"@context":"http:\/\/schema.org","publisher":{"@type":"Organization","name":"STEVEN CHU STUDIO"},"@type":"BlogPosting","mainEntityOfPage":"http:\/\/stevenchustudio.com\/projects\/web-design\/","headline":"Web Design Projects for Artists","datePublished":"2014-05-15T18:50:21+00:00","dateModified":"2019-10-22T06:39:55+00:00","author":{"@type":"Person","name":"Steven Chu"},"image":{"@type":"ImageObject","url":"https:\/\/i0.wp.com\/stevenchustudio.com\/wp-content\/uploads\/2014\/05\/BrunoGrizzo_fashionillustrator_thumbnail_StevenChu.jpg?fit=1400%2C1060&ssl=1","width":1400,"height":1060}}</script><style amp-custom>
+		/* Generic WP styling */
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.amp-wp-enforced-sizes {
+	/** Our sizes fallback is 100vw, and we have a padding on the container; the max-width here prevents the element from overflowing. **/
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.amp-wp-unknown-size img {
+	/** Worst case scenario when we can't figure out dimensions for an image. **/
+	/** Force the image into a box of fixed dimensions and use object-fit to scale. **/
+	object-fit: contain;
+}
+
+/* Template Styles */
+
+.amp-wp-content,
+.amp-wp-title-bar div {
+		margin: 0 auto;
+	max-width: 600px;
+	}
+
+html {
+	background: #0a89c0;
+}
+
+body {
+	background: #fff;
+	color: #353535;
+	font-family: 'Merriweather', 'Times New Roman', Times, Serif;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+
+p,
+ol,
+ul,
+figure {
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+a,
+a:visited {
+	color: #0a89c0;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #353535;
+}
+
+/* Quotes */
+
+blockquote {
+	color: #353535;
+	background: rgba(127,127,127,.125);
+	border-left: 2px solid #0a89c0;
+	margin: 8px 0 24px 0;
+	padding: 16px;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+/* UI Fonts */
+
+.amp-wp-meta,
+.amp-wp-header div,
+.amp-wp-title,
+.wp-caption-text,
+.amp-wp-tax-category,
+.amp-wp-tax-tag,
+.amp-wp-comments-link,
+.amp-wp-footer p,
+.back-to-top {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+
+/* Header */
+
+.amp-wp-header {
+	background-color: #0a89c0;
+}
+
+.amp-wp-header div {
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0 auto;
+	max-width: calc(840px - 32px);
+	padding: .875em 16px;
+	position: relative;
+}
+
+.amp-wp-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Site Icon */
+
+.amp-wp-header .amp-wp-site-icon {
+	/** site icon is 32px **/
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 18px;
+	top: 10px;
+}
+
+/* Article */
+
+.amp-wp-article {
+	color: #353535;
+	font-weight: 400;
+	margin: 1.5em auto;
+	max-width: 840px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+/* Article Header */
+
+.amp-wp-article-header {
+	align-items: center;
+	align-content: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 1.5em 16px 0;
+}
+
+.amp-wp-title {
+	color: #353535;
+	display: block;
+	flex: 1 0 100%;
+	font-weight: 900;
+	margin: 0 0 .625em;
+	width: 100%;
+}
+
+/* Article Meta */
+
+.amp-wp-meta {
+	color: #696969;
+	display: inline-block;
+	flex: 2 1 50%;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0 0 1.5em;
+	padding: 0;
+}
+
+.amp-wp-article-header .amp-wp-meta:last-of-type {
+	text-align: right;
+}
+
+.amp-wp-article-header .amp-wp-meta:first-of-type {
+	text-align: left;
+}
+
+.amp-wp-byline amp-img,
+.amp-wp-byline .amp-wp-author {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.amp-wp-byline amp-img {
+	border: 1px solid #0a89c0;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 6px;
+}
+
+.amp-wp-posted-on {
+	text-align: right;
+}
+
+/* Featured image */
+
+.amp-wp-article-featured-image {
+	margin: 0 0 1em;
+}
+.amp-wp-article-featured-image amp-img {
+	margin: 0 auto;
+}
+.amp-wp-article-featured-image.wp-caption .wp-caption-text {
+	margin: 0 18px;
+}
+
+/* Article Content */
+
+.amp-wp-article-content {
+	margin: 0 16px;
+}
+
+.amp-wp-article-content ul,
+.amp-wp-article-content ol {
+	margin-left: 1em;
+}
+
+.amp-wp-article-content .wp-caption {
+	max-width: 100%;
+}
+
+.amp-wp-article-content amp-img {
+	margin: 0 auto;
+}
+
+.amp-wp-article-content amp-img.alignright {
+	margin: 0 0 1em 16px;
+}
+
+.amp-wp-article-content amp-img.alignleft {
+	margin: 0 16px 1em 0;
+}
+
+/* Captions */
+
+.wp-caption {
+	padding: 0;
+}
+
+.wp-caption.alignleft {
+	margin-right: 16px;
+}
+
+.wp-caption.alignright {
+	margin-left: 16px;
+}
+
+.wp-caption .wp-caption-text {
+	border-bottom: 1px solid #c2c2c2;
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: .66em 10px .75em;
+}
+
+/* AMP Media */
+
+amp-carousel {
+	background: #c2c2c2;
+	margin: 0 -16px 1.5em;
+}
+amp-iframe,
+amp-youtube,
+amp-instagram,
+amp-vine {
+	background: #c2c2c2;
+	margin: 0 -16px 1.5em;
+}
+
+.amp-wp-article-content amp-carousel amp-img {
+	border: none;
+}
+
+amp-carousel > amp-img > img {
+	object-fit: contain;
+}
+
+.amp-wp-iframe-placeholder {
+	background: #c2c2c2 url( http://stevenchustudio.com/wp-content/plugins/amp/assets/images/placeholder-icon.png ) no-repeat center 40%;
+	background-size: 48px 48px;
+	min-height: 48px;
+}
+
+/* Article Footer Meta */
+
+.amp-wp-article-footer .amp-wp-meta {
+	display: block;
+}
+
+.amp-wp-tax-category,
+.amp-wp-tax-tag {
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 1.5em 16px;
+}
+
+.amp-wp-comments-link {
+	color: #696969;
+	font-size: .875em;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 2.25em 0 1.5em;
+}
+
+.amp-wp-comments-link a {
+	border-style: solid;
+	border-color: #c2c2c2;
+	border-width: 1px 1px 2px;
+	border-radius: 4px;
+	background-color: transparent;
+	color: #0a89c0;
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 18px;
+	margin: 0 auto;
+	max-width: 200px;
+	padding: 11px 16px;
+	text-decoration: none;
+	width: 50%;
+	-webkit-transition: background-color 0.2s ease;
+			transition: background-color 0.2s ease;
+}
+
+/* AMP Footer */
+
+.amp-wp-footer {
+	border-top: 1px solid #c2c2c2;
+	margin: calc(1.5em - 1px) 0 0;
+}
+
+.amp-wp-footer div {
+	margin: 0 auto;
+	max-width: calc(840px - 32px);
+	padding: 1.25em 16px 1.25em;
+	position: relative;
+}
+
+.amp-wp-footer h2 {
+	font-size: 1em;
+	line-height: 1.375em;
+	margin: 0 0 .5em;
+}
+
+.amp-wp-footer p {
+	color: #696969;
+	font-size: .8em;
+	line-height: 1.5em;
+	margin: 0 85px 0 0;
+}
+
+.amp-wp-footer a {
+	text-decoration: none;
+}
+
+.back-to-top {
+	bottom: 1.275em;
+	font-size: .8em;
+	font-weight: 600;
+	line-height: 2em;
+	position: absolute;
+	right: 16px;
+}
+			</style><header id="top" class="amp-wp-header"><div>
+		<a href="http://stevenchustudio.com/">
+									<span class="amp-site-title">
+				STEVEN CHU STUDIO			</span>
+		</a>
+	</div>
+</header><article class="amp-wp-article"><header class="amp-wp-article-header"><h1 class="amp-wp-title">Web Design Projects for Artists</h1>
+			<div class="amp-wp-meta amp-wp-byline">
+					<amp-img src="https://secure.gravatar.com/avatar/4520b051c7323f3e1998d796749281f1?s=24&d=mm&r=g" alt="Steven Chu" width="24" height="24" layout="fixed"></amp-img><span class="amp-wp-author author vcard">Steven Chu</span>
+	</div>
+<div class="amp-wp-meta amp-wp-posted-on">
+	<time datetime="2014-05-15T14:50:21+00:00">
+		6 years ago	</time></div>
+	</header><figure class="amp-wp-article-featured-image wp-caption"><amp-img itemprop="image" src="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_thumbnail_StevenChu.jpg?fit=790%2C598&ssl=1" alt="Bruno Grizzo – Fashion Illustrator – customized Tumblr template website" class="amp-wp-enforced-sizes" width="790" height="598" layout="intrinsic"></amp-img></figure><div class="amp-wp-article-content">
+		<h4>The Temenos Film Archive</h4>
+<p>Design & development for a non-profit film archive containing filmography and multimedia archives, dedicated to Warhol-contemporary and filmmaker: Gregory Markopoulos.<br></p><div class="flexslider clearfix"><ul class="slides"><li><amp-img data-attachment-id="1829" data-permalink="http://stevenchustudio.com/?attachment_id=1829" data-orig-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro" data-image-description="" data-medium-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro.jpg?fit=400%2C376&ssl=1" data-large-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro.jpg?fit=790%2C742&ssl=1" src="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro" width="790" height="742" class="alignnone size-large wp-image-1829 amp-wp-enforced-sizes" srcset="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro.jpg?resize=790%2C742&ssl=1 790w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro.jpg?resize=400%2C376&ssl=1 400w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro.jpg?resize=768%2C721&ssl=1 768w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro.jpg?resize=320%2C300&ssl=1 320w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-01-intro.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1830" data-permalink="http://stevenchustudio.com/?attachment_id=1830" data-orig-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro" data-image-description="" data-medium-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro.jpg?fit=400%2C376&ssl=1" data-large-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro.jpg?fit=790%2C742&ssl=1" src="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro" width="790" height="742" class="alignnone size-large wp-image-1830 amp-wp-enforced-sizes" srcset="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro.jpg?resize=790%2C742&ssl=1 790w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro.jpg?resize=400%2C376&ssl=1 400w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro.jpg?resize=768%2C721&ssl=1 768w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro.jpg?resize=320%2C300&ssl=1 320w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-02-intro.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1831" data-permalink="http://stevenchustudio.com/?attachment_id=1831" data-orig-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro" data-image-description="" data-medium-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro.jpg?fit=400%2C376&ssl=1" data-large-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro.jpg?fit=790%2C742&ssl=1" src="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro" width="790" height="742" class="alignnone size-large wp-image-1831 amp-wp-enforced-sizes" srcset="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro.jpg?resize=790%2C742&ssl=1 790w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro.jpg?resize=400%2C376&ssl=1 400w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro.jpg?resize=768%2C721&ssl=1 768w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro.jpg?resize=320%2C300&ssl=1 320w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-03-intro.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1832" data-permalink="http://stevenchustudio.com/?attachment_id=1832" data-orig-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro" data-image-description="" data-medium-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro.jpg?fit=400%2C376&ssl=1" data-large-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro.jpg?fit=790%2C742&ssl=1" src="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro" width="790" height="742" class="alignnone size-large wp-image-1832 amp-wp-enforced-sizes" srcset="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro.jpg?resize=790%2C742&ssl=1 790w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro.jpg?resize=400%2C376&ssl=1 400w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro.jpg?resize=768%2C721&ssl=1 768w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro.jpg?resize=320%2C300&ssl=1 320w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-04-intro.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1833" data-permalink="http://stevenchustudio.com/?attachment_id=1833" data-orig-file="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro" data-image-description="" data-medium-file="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro.jpg?fit=400%2C376&ssl=1" data-large-file="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro.jpg?fit=790%2C742&ssl=1" src="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro" width="790" height="742" class="alignnone size-large wp-image-1833 amp-wp-enforced-sizes" srcset="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro.jpg?resize=790%2C742&ssl=1 790w, https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro.jpg?resize=400%2C376&ssl=1 400w, https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro.jpg?resize=768%2C721&ssl=1 768w, https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro.jpg?resize=320%2C300&ssl=1 320w, https://i2.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-05-intro.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1834" data-permalink="http://stevenchustudio.com/?attachment_id=1834" data-orig-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio" data-image-description="" data-medium-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio.jpg?fit=400%2C376&ssl=1" data-large-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio.jpg?fit=790%2C742&ssl=1" src="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio" width="790" height="742" class="alignnone size-large wp-image-1834 amp-wp-enforced-sizes" srcset="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio.jpg?resize=790%2C742&ssl=1 790w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio.jpg?resize=400%2C376&ssl=1 400w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio.jpg?resize=768%2C721&ssl=1 768w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio.jpg?resize=320%2C300&ssl=1 320w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-06-bio.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1835" data-permalink="http://stevenchustudio.com/?attachment_id=1835" data-orig-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support" data-image-description="" data-medium-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support.jpg?fit=400%2C376&ssl=1" data-large-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support.jpg?fit=790%2C742&ssl=1" src="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support" width="790" height="742" class="alignnone size-large wp-image-1835 amp-wp-enforced-sizes" srcset="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support.jpg?resize=790%2C742&ssl=1 790w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support.jpg?resize=400%2C376&ssl=1 400w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support.jpg?resize=768%2C721&ssl=1 768w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support.jpg?resize=320%2C300&ssl=1 320w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-07-fundraising-support.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1836" data-permalink="http://stevenchustudio.com/?attachment_id=1836" data-orig-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios" data-image-description="" data-medium-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios.jpg?fit=400%2C376&ssl=1" data-large-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios.jpg?fit=790%2C742&ssl=1" src="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios" width="790" height="742" class="alignnone size-large wp-image-1836 amp-wp-enforced-sizes" srcset="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios.jpg?resize=790%2C742&ssl=1 790w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios.jpg?resize=400%2C376&ssl=1 400w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios.jpg?resize=768%2C721&ssl=1 768w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios.jpg?resize=320%2C300&ssl=1 320w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-08-greece-eniaios.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1837" data-permalink="http://stevenchustudio.com/?attachment_id=1837" data-orig-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive" data-image-description="" data-medium-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive.jpg?fit=400%2C376&ssl=1" data-large-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive.jpg?fit=790%2C742&ssl=1" src="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive" width="790" height="742" class="alignnone size-large wp-image-1837 amp-wp-enforced-sizes" srcset="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive.jpg?resize=790%2C742&ssl=1 790w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive.jpg?resize=400%2C376&ssl=1 400w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive.jpg?resize=768%2C721&ssl=1 768w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive.jpg?resize=320%2C300&ssl=1 320w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-09-archive.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1838" data-permalink="http://stevenchustudio.com/?attachment_id=1838" data-orig-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline" data-image-description="" data-medium-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline.jpg?fit=400%2C376&ssl=1" data-large-file="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline.jpg?fit=790%2C742&ssl=1" src="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline" width="790" height="742" class="alignnone size-large wp-image-1838 amp-wp-enforced-sizes" srcset="https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline.jpg?resize=790%2C742&ssl=1 790w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline.jpg?resize=400%2C376&ssl=1 400w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline.jpg?resize=768%2C721&ssl=1 768w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline.jpg?resize=320%2C300&ssl=1 320w, https://i0.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-10-filmography-timeline.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1839" data-permalink="http://stevenchustudio.com/?attachment_id=1839" data-orig-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single.jpg?fit=2800%2C2629&ssl=1" data-orig-size="2800,2629" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single" data-image-description="" data-medium-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single.jpg?fit=400%2C376&ssl=1" data-large-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single.jpg?fit=790%2C742&ssl=1" src="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single-790x742.jpg?resize=790%2C742" alt="the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single" width="790" height="742" class="alignnone size-large wp-image-1839 amp-wp-enforced-sizes" srcset="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single.jpg?resize=790%2C742&ssl=1 790w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single.jpg?resize=400%2C376&ssl=1 400w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single.jpg?resize=768%2C721&ssl=1 768w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single.jpg?resize=320%2C300&ssl=1 320w, https://i1.wp.com/stevenchustudio.com/wp-content/uploads/the-temenos-markopoulos-beavers-website-steven-chu-studio-11-film-single.jpg?w=2000&ssl=1 2000w" sizes="(max-width: 790px) 100vw, 790px" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+</ul></div>
+<h4>Custom portfolio for illustrator</h4>
+<p>Created a custom Tumblr masonry theme with infinite scroll for client. I wanted to experiment with and push what Tumblr could be used for.<br></p><div class="flexslider clearfix"><ul class="slides"><li><amp-img data-attachment-id="1490" data-permalink="http://stevenchustudio.com/projects/web-design/brunogrizzo_fashionillustrator_tumblr_website_stevenchu/" data-orig-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_tumblr_website_StevenChu.jpg?fit=1190%2C970&ssl=1" data-orig-size="1190,970" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="Bruno Grizzo – Fashion Illustrator – customized Tumblr template website" data-image-description="" data-medium-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_tumblr_website_StevenChu.jpg?fit=400%2C326&ssl=1" data-large-file="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_tumblr_website_StevenChu.jpg?fit=790%2C644&ssl=1" src="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_tumblr_website_StevenChu-790x643.jpg?resize=790%2C643" alt="Bruno Grizzo - Fashion Illustrator - customized Tumblr template website" width="790" height="643" class="alignnone size-large wp-image-1490 amp-wp-enforced-sizes" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+<p></p><li><amp-img data-attachment-id="1491" data-permalink="http://stevenchustudio.com/projects/web-design/brunogrizzo_fashionillustrator_tumblr_website1_stevenchu/" data-orig-file="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_tumblr_website1_StevenChu.jpg?fit=1190%2C970&ssl=1" data-orig-size="1190,970" data-comments-opened="1" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="Bruno Grizzo – Fashion Illustrator – customized Tumblr template website" data-image-description="" data-medium-file="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_tumblr_website1_StevenChu.jpg?fit=400%2C326&ssl=1" data-large-file="https://i2.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_tumblr_website1_StevenChu.jpg?fit=790%2C644&ssl=1" src="https://i1.wp.com/stevenchustudio.com/wp-content/uploads/2014/05/BrunoGrizzo_fashionillustrator_tumblr_website1_StevenChu-790x643.jpg?resize=790%2C643" alt="Bruno Grizzo - Fashion Illustrator - customized Tumblr template website" width="790" height="643" class="alignnone size-large wp-image-1491 amp-wp-enforced-sizes" data-recalc-dims="1" layout="intrinsic"></amp-img></li>
+</ul></div>
+	</div>
+
+	<footer class="amp-wp-article-footer"><div class="amp-wp-meta amp-wp-comments-link">
+		<a href="http://stevenchustudio.com/projects/web-design/#respond">
+			Leave a Comment		</a>
+	</div>
+	</footer></article><footer class="amp-wp-footer"><div>
+		<h2>STEVEN CHU STUDIO</h2>
+		<p>
+			<a href="https://wordpress.org/">
+				Powered by WordPress			</a>
+		</p>
+		<a href="#top" class="back-to-top">Back to top</a>
+	</div>
+</footer></body></html>

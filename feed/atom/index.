@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en-US"
+  xml:base="https://stevenchustudio.com/wp-atom.php"
+  xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"  >
+	<title type="text">STEVEN CHU STUDIO</title>
+	<subtitle type="text">NYC Digital Product Designer specializing in fashion ecommerce, visual identity, UX design, front-end development, and event experiential design.</subtitle>
+
+	<updated>2019-10-22T07:02:46Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://stevenchustudio.com" />
+	<id>https://stevenchustudio.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://stevenchustudio.com/feed/atom/" />
+
+	<generator uri="https://wordpress.org/" version="4.9.15">WordPress</generator>
+	<entry>
+		<author>
+			<name>Steven Chu</name>
+					</author>
+		<title type="html"><![CDATA[Website Production Timeline]]></title>
+		<link rel="alternate" type="text/html" href="https://stevenchustudio.com/website-production-timeline/" />
+		<id>http://stevenchustudio.com/?p=1718</id>
+		<updated>2016-05-03T05:17:43Z</updated>
+		<published>2016-05-03T05:17:43Z</published>
+		<category scheme="https://stevenchustudio.com" term="Pre-Boarding" />		<summary type="html"><![CDATA[<p>You will be given a website estimated production period of X days. Website production will not begin until these 2 conditions are met: 1 &#8211; Website domain and host as recommended are registered, paid for, and account is active. User name, password, and FTP info if requested must be submitted. 2 &#8211; All final website [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/website-production-timeline/">Website Production Timeline</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://stevenchustudio.com/website-production-timeline/"><![CDATA[<p class="p1">You will be given a website estimated production period of X days. Website production will not begin until these 2 conditions are met:</p>
+<p class="p1">1 &#8211; Website domain and host as recommended are registered, paid for, and account is active. User name, password, and FTP info if requested must be submitted.</p>
+<p class="p1">2 &#8211; All final website content to be used in production must be submitted:</p>
+<p class="p1">= Images in highest resolution format must be zipped and submitted via <span class="s1"><a href="http://wetransfer.com">wetransfer.com</a>. For full detail on delivery requirements, <a href="http://stevenchustudio.com/image-guidelines/">please read this guide</a>.</span></p>
+<p class="p1">= All copy must be submitted via google docs and shared to <a href="mailto:work@stevenchustudio.com"><span class="s1">work@stevenchustudio.com</span></a></p>
+<p class="p1">The timer will not begin until both of these criteria have been confirmed received. Please do not miss any production deadlines to ensure your website is executed without hiccups. Missed deadlines void the estimate production period, and a new one will be given. This is especially important if you have a desired specific website launch date in mind &#8211; please plan accordingly. No exceptions.</p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/website-production-timeline/">Website Production Timeline</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://stevenchustudio.com/website-production-timeline/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://stevenchustudio.com/website-production-timeline/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Steven Chu</name>
+					</author>
+		<title type="html"><![CDATA[Image Delivery Guidelines]]></title>
+		<link rel="alternate" type="text/html" href="https://stevenchustudio.com/image-guidelines/" />
+		<id>http://stevenchustudio.com/?p=1716</id>
+		<updated>2016-05-12T16:11:51Z</updated>
+		<published>2016-05-03T05:05:23Z</published>
+		<category scheme="https://stevenchustudio.com" term="Pre-Boarding" /><category scheme="https://stevenchustudio.com" term="website assets" />		<summary type="html"><![CDATA[<p>Your responsibilities as the client: Ensure you make all attempts to attain the highest quality image assets (Unless your stylistic look specifically calls for low quality images, low quality images typically come across as less professional, less refined, and may otherwise ruin a solidly produced website.) Confirm you have read the guidelines below on how to properly prepare [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/image-guidelines/">Image Delivery Guidelines</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://stevenchustudio.com/image-guidelines/"><![CDATA[<p class="p1">Your responsibilities as the client:</p>
+<ol>
+<li class="p1">Ensure you make all attempts to attain the highest quality image assets<br />
+<em>(Unless your stylistic look specifically calls for low quality images, low quality images typically come across as less professional, less refined, and may otherwise ruin a solidly produced website.)</em></li>
+<li class="p1">Confirm you have read the guidelines below on how to properly prepare your images for web.</li>
+<li class="p1">Ensure image files are properly formatted and ready for web upload</li>
+<li class="p1">Upload your web-ready images to the proper section of your website, so that they can be readily inserted into content by your web designer / developer.<br />
+<em>(If you have negotiated for your web designer / developer to handle image content uploading for you, .zip your folder of images and email transfer them via <a href="http://wetransfer.com" target="_blank">wetransfer.com</a> for free.)</em></li>
+<li class="p1">See also: How to notate in your copy documents where images should be placed.</li>
+</ol>
+<p>&nbsp;</p>
+<p class="p1">Important Notes:</p>
+<ul>
+<li class="p1">Website production will not begin until image assets have been properly delivered. Delay in delivery of any content assets (images or copy) will delay beginning the website production timeline. Delays to delivery greater than 1 week may require renegotiation of website production fees.</li>
+<li class="p1">You are responsible for the images submitted and understand that what you submit is what will be used. If the images provided to developer do not meet the requested quality standards, you accept full responsibility over end result.</li>
+</ul>
+<p class="p1">
+<p class="p1">
+<p>&nbsp;</p>
+<hr />
+<h3></h3>
+<h3></h3>
+<h3>Logos</h3>
+<p class="p1">Please provide your logo as:</p>
+<ul>
+<li><strong>Format:</strong> .PNG file format only<br />
+<em>(.jpg or other file formats are not accepted)</em></li>
+<li>on a transparent background</li>
+<li><strong>Dimensions:</strong> minimum of 1000px wide, to be resized down as needed for use on web</li>
+<li><strong>Target KB size:</strong> ~20kb, or &lt; 100kb</li>
+<li><strong>File name:</strong> companyname_logo.png</li>
+<li><strong>Usage rights:</strong> Verify you have the rights / permissions to use</li>
+</ul>
+<p>If you do not currently have your logo as a transparent PNG file, you may provide your logo in .ai / .eps / .tif format and I will convert it to PNG.</p>
+<h3>Photos</h3>
+<ul>
+<li><strong>Format:</strong> .JPG file format only<br />
+(<em>.PDF and other file formats cannot be displayed on the web and are not accepted.)<br />
+(*Digitally illustrated graphics may be saved as .PNG file format for improved output quality and potentially smaller file sizes.)</em></li>
+<li><strong>Dimensions:</strong>
+<ul>
+<li>Supporting images (small): Minimum 1500px wide</li>
+<li>Feature images aka. &#8220;hero images&#8221; (large images that will be displayed at full screen width): Minimum 2500px wide, up to 4000px wide if possible</li>
+</ul>
+</li>
+<li><strong>Image Quality:</strong>
+<ul>
+<li><strong>For photographic images from a DSLR camera (whether your own photographer, or a purchased stock photo image):</strong>
+<ul>
+<li>1. In Photoshop, scale image down to either the recommended small or large dimensions.</li>
+<li>2. To optimize for web, use the &#8216;Save for Web&#8217; setting in Photoshop. Then, manually tweak the &#8216;Quality&#8217; setting anywhere between 20 to 70. For small images, saving at quality between 50-70 gives a great balance between quality and load speed. For large images, save at a lower quality between 20-40 to compensate for the large file size slowing down load speed.</li>
+<li>Note: the more image heavy your page is, the more strictly you should compress your image file sizes.</li>
+</ul>
+</li>
+<li><strong>For scanned images or images pulled off other people&#8217;s websites:</strong><br />
+<em>(Note: These second hand images are almost always suboptimal quality.)</em></p>
+<ul>
+<li>1. First open the image, zoom to 100%, and inspect. Is it pixelated, blurry, or bad quality to begin with? If so, do not proceed to the next step. Find an alternate method to garner a high quality, crisp and clear image.</li>
+<li>2. Check cropping: Have you left extra white space around the image from the scanner bed that needs to be cropped off?</li>
+<li>3. Check rotational alignment:  Is the image crooked and not level?</li>
+<li>4. Follow steps 1 and 2 for DSLR photos listed above.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Target KB size:</strong>
+<ul>
+<li>Small images: 70kb to 350kb</li>
+<li>Large images: 350kb to 550kb</li>
+</ul>
+</li>
+<li><strong>File name:</strong> Use a consistent, semantic naming format that can apply for all your images.
+<ul>
+<li>To name by the location image will reside: bio_photo_johndoe.jpg or press_2016-07_vogue.jpg.</li>
+<li>If image may be used in multiple locations on site, name purely by content description: 2016-07_voguephotoshoot.jpg or 2015-01_alaskatrip_john_suzie_mom.jpg</li>
+</ul>
+</li>
+<li><strong>Usage rights &amp; attribution:</strong> Verify you have usage rights and permission to use photos or graphics on your website. Check with the photographer or content creator if attribution is needed and where. It is also best practice to credit your photographer somewhere in your filename: mumbai_skyline_johndoe.jpg</li>
+</ul>
+<p>For additional detail on how to get your images ready for web, read this Squarespace tutorial:<br />
+https://support.squarespace.com/hc/en-us/articles/206542517-Formatting-your-images-for-display-on-the-web</p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/image-guidelines/">Image Delivery Guidelines</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://stevenchustudio.com/image-guidelines/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://stevenchustudio.com/image-guidelines/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Steven Chu</name>
+					</author>
+		<title type="html"><![CDATA[How to Build Your Website, Step 1]]></title>
+		<link rel="alternate" type="text/html" href="https://stevenchustudio.com/how-to-build-your-website-step-1/" />
+		<id>http://stevenchustudio.com/?p=1661</id>
+		<updated>2015-08-27T18:12:12Z</updated>
+		<published>2015-08-27T18:12:12Z</published>
+		<category scheme="https://stevenchustudio.com" term="Branding" />		<summary type="html"><![CDATA[<p>Guide to developing your website right on the first try, based on my own process and approach. I hope you find this primer helpful! An Introduction Who am I, and is my perspective applicable to you? I create branding, do the design, and the programming, and the ongoing digital marketing &#8211; so I am painstakingly [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/how-to-build-your-website-step-1/">How to Build Your Website, Step 1</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://stevenchustudio.com/how-to-build-your-website-step-1/"><![CDATA[<h2>Guide to developing your website right on the first try, based on my own process and approach. I hope you find this primer helpful!</h2>
+<h5>An Introduction</h5>
+<h3>Who am I, and is my perspective applicable to you?</h3>
+<p>I create branding, do the design, and the programming, and the ongoing digital marketing &#8211; so I am painstakingly aware of inevitable future frustration when BRAND + BUSINESS + COMMUNICATION are not aligned.</p>
+<p>This approach to prepping for a 1st time website design or redesign will work for you whether you are an individual making a personal portfolio, or a XS/S/M/L/XL business.</p>
+<p>&nbsp;</p>
+<h3>Let&#8217;s start ourselves off right by focusing on these from the get go!:</h3>
+<p>&#8211; Getting the Brand Tone / clarity conveyed<br />
+&#8211; Focusing on UX (user experience)<br />
+&#8211; Tying development to user journey / pathway through our product lifecycle from the get go.</p>
+<h3>Worksheet: Here&#8217;s what you need to get started with your process:</h3>
+<p><strong>1. JOURNEY MAPPING:</strong> Layout your end goal, and define how we get there.<br />
+(In the product world you may have heard it called product lifecycle.)<br />
+I am building this website because I want people to:  ____, then ____, then ____, and finally _____.  (you can have as many blanks as you want)<br />
+I want people to _see a vibrant picture of me_, then _read about me_, then _see the work i&#8217;ve done_.<br />
+<strong><u>is a very different route from</u></strong><br />
+I want people to _get latest style tips_, then _subscribe to my newsletter_, then _reblog my content_, then _sign up for my intro online class_, then _buy my book_, then _buy my premium offering_.<br />
+<strong><u>etc etc.</u></strong></p>
+<p><strong>2. SITE FEATURES: </strong>What do they come here to do? &#8220;When they come to __.com they should be able to do __ and __ and __.&#8221;<br />
+Think about Disneyland. You don&#8217;t say to friends &#8220;When we go to disneyland, we are going to  go on rollercoasters, eat lunch, use restrooms, and buy souvenirs&#8221;. Visitors don&#8217;t care about your physical locations of facilities, they care about things they can do that create a defining experience for them right away.</p>
+<p>You say &#8220;we&#8217;re gonna check out Tomorrowland, and that Michael Jackson 3D show, and watch the Main Street Parade at night.&#8221;</p>
+<p>You don&#8217;t say &#8220;We need a taxi car to take us from A to B&#8221;. You say, &#8220;I just booked our Uber, he&#8217;ll be here in 3 mins. I got us an SUV! Tell Gianni we&#8217;ll be there in 10 so meet us directly at the restaurant.&#8221;</p>
+<p>So, resist the urge to think of features as a list of pages &#8220;home about contact blog&#8221;. That is the backwards approach. Work from the components to build the experience you want to convey.<br />
+Ex: Betty Crocker might be:<br />
+&#8220;- A live streaming video gallery is our most important feature to feel like we&#8217;re talking to visitors right away, but I want the video player to have visual design hints of retro 60&#8217;s.<br />
+&#8211; A sign up box for tips to introduce newbies to baking.<br />
+&#8211; A bake sale gallery.. made up of instagram photos from user hashtags who used our recipes.<br />
+&#8211; An easy way to read and bookmark recipes<br />
+&#8211; A way to quickly buy the tools we recommend, as well as fan gear!&#8221;</p>
+<p>When we get our heads out of the trees, aka. when we get out of trying to make it through the day to day, we can see focus on curating the overall journey (the forest).<br />
+<strong>3. DESIGN ELEMENTS:</strong> Gather your inspirations of what you want your digital home to feel like.<br />
+Physical visual inspirations: Video clips, magazine layouts, sections of other websites you may like the functionality of<br />
+Brand Tone: Companies, Media Personalities, Locations (Places / Eras. ie. fresh foggy paris winter morning)</p>
+<p>It is important to define what you are MORE like, and what you are LESS like. Be as specific as you can. Make two columns. Start with listing what you know: I&#8217;m definitely like THIS THIS THIS. Definitely NOT THIS. Then fill in the opposing column for that element which will inadvertently explain us WHY.</p>
+<p>LESS &#8212; MORE<br />
+a &#8212; b<br />
+c &#8212; d<br />
+e &#8212; f<br />
+etc etc</p>
+<p>For example: My performance persona <a href="http://fb.com/chuubiephotoBAM" target="_blank">Chuubie</a> is MORE rainbow brite dress up costumes with a precise eye on overall aesthetic, LESS earthy loose burning man costumes and LESS cold distant fashion drag costume.</p>
+<p>Find sites that inspire you.<br />
+After that, here are some additional places to look for website inspirations (since these are out of your genre, focus on finding components you like (ie. i love how they did their intro gallery slider, i love their interactive sidebar, etc):<br />
+http://www.blenderbox.com/company/client-list<br />
+http://fltdsgn.com<br />
+http://onepagelove.com</p>
+<p>If you found this helpful or have any thoughts or questions, please leave a comment below.</p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/how-to-build-your-website-step-1/">How to Build Your Website, Step 1</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://stevenchustudio.com/how-to-build-your-website-step-1/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://stevenchustudio.com/how-to-build-your-website-step-1/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Steven Chu</name>
+					</author>
+		<title type="html"><![CDATA[Starting Your Website? Here&#8217;s What You Need to Know]]></title>
+		<link rel="alternate" type="text/html" href="https://stevenchustudio.com/starting-your-website/" />
+		<id>http://stevenchustudio.com/?p=1417</id>
+		<updated>2014-05-01T19:46:10Z</updated>
+		<published>2014-05-01T18:23:02Z</published>
+		<category scheme="https://stevenchustudio.com" term="Branding" />		<summary type="html"><![CDATA[<p>Sophisticated, Clear Websites custom tailored and made for people who care about design. &#160; About Steven Chu Studio: Based here in New York City, working between Manhattan &#38; Brooklyn &#8211; we can handle your entire brand and website development process from start to finish. &#160; Stages One: Planning Find and bookmark 3 contemporary websites that can be inspirations for [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/starting-your-website/">Starting Your Website? Here&#8217;s What You Need to Know</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://stevenchustudio.com/starting-your-website/"><![CDATA[<div style="border: 5px solid #1D8DB1;padding:20px 15px 20px;text-align:center;">
+<h1 style="margin-bottom: 5px;font-size: 5em;line-height:1em;font-weight: normal;font-family: 'Source Sans Pro';color: #1D8DB1;">Sophisticated, Clear Websites</h1>
+<p><span style="color: #1D8DB1;">custom tailored and made for people who care about design.</span></div>
+<p>&nbsp;</p>
+<p><em>About Steven Chu Studio:</em> Based here in New York City, working between Manhattan &amp; Brooklyn &#8211; we can handle your entire brand and website development process from start to finish.</p>
+<p>&nbsp;</p>
+<h3>Stages</h3>
+<h2>One: Planning</h2>
+<ol>
+<li>Find and bookmark 3 contemporary websites that can be inspirations for your own
+<ol>
+<li>Who&#8217;s the best in your industry? See what they are doing.</li>
+<li>Go beyond your industry. Who are your style pioneers? See what they are doing.</li>
+<li>Check out these two sites I love for of-the-moment references: <a href="http://onepagelove.com" target="_blank">onepagelove.com</a> and <a href="http://fltdsgn.com" target="_blank">fltdsgn.com</a></li>
+</ol>
+</li>
+<li>Make a list of all the critical features you want built into your site. At this stage you don&#8217;t need to know what page they will be on, just make a running list.
+<ol>
+<li>Find some feature inspirations from the reference sites listed above, or check out my wide array of Pinterest boards <a href="http://www.pinterest.com/stevenchu/" target="_blank">pinterest.com/stevenchu</a></li>
+<li>E.g., Responsive / mobile friendly design, CMS (content management system) or not: &#8220;Do you need to be able to edit and update content yourself?&#8221;, gallery slideshow, intro slideshow, social media links, social media integration, contact form, subscribe to newsletter, infographic charts, more complex features. Note: only include what&#8217;s critical; a bloated site with too many options will just confuse your visitors.</li>
+</ol>
+</li>
+<li>Gather your content and put it in a Dropbox folder to share, alternatively you can attach all your assets to ONE email and send it over if the files are small. This includes:
+<ol>
+<li>Branding assets. A hi-res copy of your logo, attach brand guidelines if you have one, font files (I don&#8217;t own the fonts you want to use).</li>
+<li>Any images or graphics you want to use. (e.g., product gallery slideshows, header images, promo images, and illustrations).</li>
+<li>Copy. The copy on your website refers to any and all text. For any content section (no matter big or small) on your site, try following this format by writing out:
+<ol>
+<li>
+<h1>Primary Headline (2-5 words. i.e., &#8220;the what&#8221;)</h1>
+</li>
+<li>
+<h3>Subheadline (5-10 words, i.e., &#8220;a cute reason why this is worth attention!&#8221;)</h3>
+</li>
+<li>Body Copy (variable length; your main area to describe your argument in detail)</li>
+</ol>
+</li>
+</ol>
+</li>
+<li> Choose a rough timeline in which you want the site done. Typical efficient timeline is two weeks provided that you are fully prepared with all assets delivered. Not having all assets above prepared in advance (and delivering them piecemeal) usually results in a drawn out development time between 2-6 months and lots of back and forth resulting in going over budget.</li>
+</ol>
+<p>&nbsp;</p>
+<h2>Two: Brainstorm &amp; Setup (Meeting One)</h2>
+<ol>
+<li>Get on the same wavelength. Bounce your initial ideas off us and let us steer the ship to help you pin down some more concrete directions to sail forward in. We&#8217;ll talk about each of the planning sections above, channel some ideas, and help you visualize a more tangible vision of what&#8217;s possible.</li>
+<li>Site registration logistics.
+<ol>
+<li>Bring your credit card and we&#8217;ll help you register your domain name + web hosting, or just the web hosting if you already bought your domain. We get extremely low rates and pass this to our customers (so if you haven&#8217;t purchased the domain name yet, don&#8217;t do it through GoDaddy etc. Wait for us!).</li>
+<li>Please be prepared and bring any login information (site / username / password) to make changes and install your setup. E.g., control panel login, domain name login, FTP / MySQL login, mailchimp / social media accounts or anything else relevant.</li>
+</ol>
+</li>
+<li>Homework. Yes, you will have homework! It&#8217;s fairly painless. There will be colors and fonts to decide on, choosing with features you want to go with, and always &#8211; new copy and visual assets needed as a result of our combined ideas and tailored direction.</li>
+<li>Budget, approval, and deposit. You aren&#8217;t the only one that has homework! We take all your site requirements and break it hour by hour into a compiled project estimate for you to approve. We run it by you and pare down or expand this budget as needed. After signing budget and initial work agreement (which outlines scope of work, development timeline and your responsibilities as a client to moving work forward), a 50% deposit is required to commence work. Payment plans negotiable on a case by case basis.</li>
+</ol>
+<p>&nbsp;</p>
+<h2>Three: Initial Build and WIP (Work In Progress) Communication</h2>
+<ol>
+<li>On our side, we work very similar to home construction:
+<ol>
+<li>Planning. Finalize our blueprint.</li>
+<li>Structural construction. We first lay down the foundation and architecture for your site. Similar to a home, we allocate space / placeholders for where your bathroom goes, where your bathroom sink goes, noting the size/dimensions and any feature it may need to be connected to (i.e., if we get this brand of sink, we need these kinds of pipes to connect to the shower and main&#8230;)</li>
+<li>Visual construction. Finally, time to decorate! Kid us not, the finishing touches don&#8217;t happen at the finish line&#8211;visual planning happens in tandem at all stages of planning and structural construction. E.g., if we want a clean, minimal look and want to only reveal some info like a signup form when someone clicks on it, we need to plan to build in this functionality in advance. Color choices, fonts, and spacing also impact where features will be arranged on your site to make the most sense.</li>
+<li>Revisions &amp; Finalization (Meeting Two).</li>
+<li>Testing. To test drive this vehicle, you&#8217;ll pretend to be your end customer and see if you can navigate your way through the site logically, double checking that everything works as planned.</li>
+</ol>
+</li>
+</ol>
+<p>&nbsp;</p>
+<h2>Four: Launch!</h2>
+<ol>
+<li>Full payment must be rendered in order to launch site live to public.</li>
+<li>Minor tweaks that fall within original scope of work can be made within two weeks of launch. Edits and services beyond this time frame are billed to you hourly.</li>
+</ol>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/starting-your-website/">Starting Your Website? Here&#8217;s What You Need to Know</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://stevenchustudio.com/starting-your-website/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://stevenchustudio.com/starting-your-website/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Steven Chu</name>
+					</author>
+		<title type="html"><![CDATA[When Does the Branding Process Start?]]></title>
+		<link rel="alternate" type="text/html" href="https://stevenchustudio.com/when-does-the-branding-process-start/" />
+		<id>http://stevenchustudio.com/?p=514</id>
+		<updated>2012-11-14T05:59:23Z</updated>
+		<published>2012-05-03T08:56:43Z</published>
+		<category scheme="https://stevenchustudio.com" term="Branding" /><category scheme="https://stevenchustudio.com" term="branding" /><category scheme="https://stevenchustudio.com" term="starting a brand" /><category scheme="https://stevenchustudio.com" term="brand timing" /><category scheme="https://stevenchustudio.com" term="great branding" /><category scheme="https://stevenchustudio.com" term="seamless branding" />		<summary type="html"><![CDATA[<p>The brand is the most definitive and guiding statement. Your brand is the decider on every action you take. It must inform everything you do. Your brand is your projected and idealized persona. We say a person who has two conflicting personalities is schizo. A person whose temperature bounces between two extremes might be bipolar. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/when-does-the-branding-process-start/">When Does the Branding Process Start?</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://stevenchustudio.com/when-does-the-branding-process-start/"><![CDATA[<p>The brand is the most definitive and guiding statement. Your brand <em>is</em> the decider on every action you take. It must inform everything you do. Your brand is your projected and idealized persona.</p>
+<p>We say a person who has two conflicting personalities is schizo. A person whose temperature bounces between two extremes might be bipolar. Do you really want multiple voices in your head who are all running off on their own page and can&#8217;t be synced? Do I as an audience want to listen to an erratic and inconsistent person rattling off?</p>
+<p>That is exactly what happens when you start your branding at the wrong time. Branding is your seamless singular voice among all elements in your company&#8211; probably meaning you want to be cognizant of it from the start of the initiative. After all if your brand is your voice, why would you start making decisions voice-less?</p>
+<p>This doesn&#8217;t mean that you have to have everything worked out or fully formed at all. But like with real people- we always kind of know who we are even if we can&#8217;t yet put it into words. As we grow, we just have more time to think about how to quantify and communicate who we are to our peers- thus reaffirming our identities to ourselves.</p>
+<h3>So yes, START FROM THE VERY BEGINNING.</h3>
+<p>The brand dictates what markets to pursue, what products to make, etc.</p>
+<h3>When is the WRONG time to start branding?</h3>
+<p>When the branding cannot be seamless. That is the simplest answer.</p>
+<p>Branding cannot create a seamless identity when you do not have control or influence of essential components. If you have variables in the air (unverifiable) and like a blind skydiver can land in a multitude of places, that is a red flag. Example: if you started developing products but you have no idea how they are going to turn out. Sure you can create some idealized brand, but if the brand had no say over what product or how the products are made and the result does not quite match up to the image and values you are communicating- you are going to spend double time at least trying to retroactively fit it in place. Think of custom carpentry or building supplies when the measurements are slightly off. But for a more important analogy- think of trying to back up in reverse while moving forward and foot still on the accelerator: unless you can bend physics, you&#8217;re going to fry something.</p>
+<p>Does this mean that branding needs to be accounted for from the very beginning or else you are forever screwed? Clearly not- you can 100% start your identity search later in life, but there is such a thing as a bad time to do so. Example: Is it a good idea to bring namaste enlightenment to a person who is working a high-pressure job they hate but hold a lot of responsibility for? They&#8217;ve been suppressing a lot of their ration and emotions in order to cope and perform well at this job, so it&#8217;s probably NOT a good idea. The best time to restructure your thoughts is during downtime and little activity.</p>
+<p>When you start your identity search later down the road, what&#8217;s nice is that you&#8217;re able to look at what you&#8217;ve accomplished as a reference for where you want to go. You have a better sense of what worked and what didn&#8217;t work, and that provides insight on how you can make <em>what is working</em> work even better by embodying your core perspectives.</p>
+<p>Very seldom do I work with commercial clients who approach me before they&#8217;ve formed any part of the company and are just in the brainstorming process- unless I am a founding member as I am with my artist collaborations. Much more frequently my commercial clients who are small start-up businesses approach me after they&#8217;ve tested the market and have proven some viability, and are confirmed they want to go at it full force with all components in unison.</p>
+<p>I can summarize my thoughts on when to start branding in these two approaches:<br />
+1) You can create an ideal based on your perceptions and then test the market to see if it works for others.<br />
+2) You can market test a specific idea you&#8217;re interested in and create an ideal based off of what works.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;">This article is written by and copyright &copy; 2012 Steven Chu, Image Engineer [Branding &amp; Visual Direction]. All rights reserved.<br />
+To learn more about how we can get your small business started, <a class="superlink" href="http://stevenchustudio.com/services">visit stevenchustudio.com</a> or<br />
+<a class="superlink" href="mailto:work@stevenchustudio.com?subject=Starting%20My%20Branding%20Process">contact us at work@stevenchustudio.com</a></p>
+<p>The post <a rel="nofollow" href="https://stevenchustudio.com/when-does-the-branding-process-start/">When Does the Branding Process Start?</a> appeared first on <a rel="nofollow" href="https://stevenchustudio.com">STEVEN CHU STUDIO</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://stevenchustudio.com/when-does-the-branding-process-start/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://stevenchustudio.com/when-does-the-branding-process-start/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+	</feed>
